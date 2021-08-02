@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # PYTHON COMMON CHARACTERS OF TWO STRINGS IN ALPHABETICAL ORDER
-
-# In[ ]:
-
-
-
-
-
-# In[8]:
-
-
 s0 = str(input("Enter String 1 : "))
 s1 = str(input("Enter String 2 : "))
 s3 = [] #list variable to contain common characters
@@ -27,10 +13,3 @@ for i in range(len(s3)):              #converting list to string
     s4 = s4+s3[i]
     
 print(" The Common Characters in Alphabetical Order : "+s4)
-
-
-# In[ ]:
-
-
-
-
