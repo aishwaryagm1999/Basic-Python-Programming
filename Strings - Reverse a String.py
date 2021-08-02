@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # PYTHON COMMON CHARACTERS OF TWO STRINGS IN ALPHABETICAL ORDER
-
-# In[ ]:
-
-
-
-
-
-# In[13]:
-
-
 str1 = str(input("Enter the String to be Reversed: "))
 print("\n")
 
@@ -26,10 +12,3 @@ print("\n")
 #method 2 - slicing operation
 
 print("Reversed String (Method 2): "+str1[::-1],end="")
-
-
-# In[ ]:
-
-
-
-
