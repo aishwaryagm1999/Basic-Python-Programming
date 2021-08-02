@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # PYTHON STRING ROTATION (RIGHT)
-
-# In[ ]:
-
-
-
-
-
-# In[6]:
-
-
 str1 = str(input("Enter String to Rotate: ")) # string input
 k = int(input("Enter number of times string is Rotated to the right: ")) #number of times string is rotated to the right
 ls = []
@@ -28,10 +14,3 @@ finalstr = ""
 for i in range(0,len(ls)):
       finalstr = finalstr+ls[i]
 print("Rotated String: "+finalstr)
-
-
-# In[ ]:
-
-
-
-
