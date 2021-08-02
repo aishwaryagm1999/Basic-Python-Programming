@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # PYTHON COMMON CHARACTERS OF TWO STRINGS IN ALPHABETICAL ORDER
-
-# In[ ]:
-
-
-
-
-
-# In[15]:
-
-
 str1 = str(input("Enter Main String: "))
 ch1 = str(input("Enter value of ch1: "))
 ch2 = str(input("Enter value of ch2: "))
@@ -28,10 +14,3 @@ for i in range(len(str1)):
         str2 = str2+str1[i]   #adding remaining characters to final string
         
 print(str2)
-
-
-# In[ ]:
-
-
-
-
